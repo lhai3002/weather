@@ -1,19 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import { store } from './store';
-import {Provider} from 'react-redux'
-import { PrimeReactProvider } from 'primereact/api';
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <Provider store={store}>
-<PrimeReactProvider>
-<App/>
-</PrimeReactProvider>
-    </Provider>
-);
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
+// import './index.css';
+// import { store } from './store';
+// import {Provider} from 'react-redux'
+// import { PrimeReactProvider } from 'primereact/api';
+// // import Slice15 from './Slice15'
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(
+//   <Provider store={store}>
+// <PrimeReactProvider>
+// {/* <Slice15/> */}
+// </PrimeReactProvider>
+//     </Provider>
+// );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
